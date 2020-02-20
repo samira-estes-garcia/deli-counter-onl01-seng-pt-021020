@@ -7,3 +7,7 @@ def line(array)
     puts line_arr
   end
 end
+
+def take_a_number(current_line, name) {
+  
+}
