@@ -10,6 +10,9 @@ end
 
 def take_a_number(current_line, name) 
   arr = []
-  current_line.each_with_index{|already_in_line, index| arr << ""}
+  if current_line.empty?
+    current_line << name
+    puts 
+  current_line.each_with_index{|already_in_line, index| arr << "Welcome, #{}}
   puts arr
 end
