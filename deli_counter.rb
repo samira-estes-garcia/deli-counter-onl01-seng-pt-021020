@@ -8,8 +8,8 @@ def line(array)
   end
 end
 
-def take_a_number(current_line, name) {
+def take_a_number(current_line, name) 
   arr = []
   current_line.each_with_index{|already_in_line, index| arr << ""}
   puts arr
-}
+end
