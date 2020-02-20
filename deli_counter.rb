@@ -12,3 +12,8 @@ def take_a_number(current_line, name)
   current_line << name
   puts "Welcome, #{name}. You are number #{current_line.length} in line."
 end
+
+def now_serving
+  if array.empty?
+    puts "There is nobody waiting to be served!"
+end
